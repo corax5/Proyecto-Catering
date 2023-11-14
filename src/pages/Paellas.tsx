@@ -5,3 +5,4 @@ export const Paellas = () => {
         <div>Paellas</div>
     )
 }
+export default Paellas
