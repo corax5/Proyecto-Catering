@@ -1,6 +1,6 @@
 import React from 'react';
 import { Inter } from 'next/font/google'
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Footer } from '@/pages/Footer'
 import { Inicio } from '@/pages/Inicio';
 import Navbar from './Navbar';
