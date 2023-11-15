@@ -13,11 +13,11 @@ const Contacto = () => {
       <nav className="bg-white border-gray-200 bg-zinc-900">
         <h3 className="text-5xl mx-auto text-center mb-6">Contacto:</h3>
         <div className=" flex items-center justify-between">
-          <h4 className='text-4xl mx-auto text-left  '>Conéctate con nosotros en redes sociales</h4>
-          <br />
+          <h4 className='text-4xl mx-auto text-left mb-8 '>Conéctate con nosotros en redes sociales</h4>
+
         </div>
 
-        <div className="text-2xl font-bold text-gray-800 lg:text-xl dark:text-white mx-auto flex items-center ml-80 ">
+        <div className="text-2xl font-bold text-gray-800 lg:text-xl dark:text-white mx-auto flex items-center ml-80 mb.8 ">
 
           <div className="min-h-screen bg-zinc-900 py-6 flex flex-col justify-center sm:py-1 mr-96">
 
