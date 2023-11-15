@@ -6,8 +6,8 @@ export const Navbar = () => {
 
     return (
         <nav className="bg-white border-gray-200 bg-zinc-900">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+                <a href="https://www.instagram.com/cateringvicente/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="https://i.gyazo.com/57e2dcf740bc44ef4dfe31b7094d397c.png" className="h-20" alt="Catering Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Proyecto Catering</span>
                 </a>
@@ -19,12 +19,12 @@ export const Navbar = () => {
                     aria-expanded="false"
                 >
                     <span className="sr-only">Abrir menu</span>
-                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <svg className="w-5 h-5" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 17 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
                     </svg>
                 </button>
-                <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <div className="hidden w-full md:block md:w-auto " id="navbar-default">
+                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-zinc-950 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-zinc-900 dark:border-gray-700">
                         <li>
                             <a href="/" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-orange-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inicio</a>
                         </li>
