@@ -9,7 +9,7 @@ export const Footer = () => {
                     <div className="mb-6 md:mb-0">
                         <a href="https://flowbite.com/" className="flex items-center">
                             <img src="https://i.gyazo.com/57e2dcf740bc44ef4dfe31b7094d397c.png" className="h-8 me-3" alt="FlowBite Logo" />
-                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Proyecto Catering</span>
+                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Catering Vicente</span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
