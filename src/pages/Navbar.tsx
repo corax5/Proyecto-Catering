@@ -1,6 +1,20 @@
 
 import Link from 'next/link';
-import React from 'react';
+import { useRouter } from 'next/router';
+
+const ActiveLink = ({ href, children }) => {
+    const router = useRouter();
+
+    const isActive = router.pathname === href;
+
+    return (
+        <Link legacyBehavior href={href}>
+            <a className={`block py-2 px-2 rounded ${isActive ? 'text-decoration-line: underline ' : 'text-decoration-line: underline; hover:bg-gray-100'} md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-orange-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`}>
+                {children}
+            </a>
+        </Link>
+    );
+};
 
 export const Navbar = () => {
 
@@ -27,16 +41,16 @@ export const Navbar = () => {
                 <div className="hidden w-full md:block md:w-auto " id="navbar-default">
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-zinc-950 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-zinc-900 dark:border-gray-700">
                         <li>
-                            <Link href="/" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-orange-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inicio</Link>
+                            <ActiveLink href="/">Inicio</ActiveLink>
                         </li>
                         <li>
-                            <Link href="/Catering" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-orange-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Catering</Link>
+                            <ActiveLink href="/Catering">Catering</ActiveLink>
                         </li>
                         <li>
-                            <Link href="/Paellas" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-orange-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Paellas</Link>
+                            <ActiveLink href="/Paellas">Paellas</ActiveLink>
                         </li>
                         <li>
-                            <Link href="/Contacto" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-orange-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contacto</Link>
+                            <ActiveLink href="/Contacto">Contacto</ActiveLink>
                         </li>
                     </ul>
                 </div>
