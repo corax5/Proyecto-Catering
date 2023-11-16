@@ -23,65 +23,89 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
-.social-menu ul {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.social-menu ul li {
+.wrapper {
+  display: inline-flex;
   list-style: none;
-  margin: 0 10px;
+  margin-top: 30px;
+  flex-direction: column;
 }
 
-.social-menu ul li .fa {
-  color: #000000;
-  font-size: 25px;
-  line-height: 50px;
-  transition: .5s;
-}
-
-.social-menu ul li .fa:hover {
-  color: #e00f0f;
-}
-
-.social-menu ul li a {
+.wrapper .icon {
   position: relative;
-  display: block;
-  width: 50px;
-  height: 50px;
+  background: rgb(247, 195, 25);
   border-radius: 50%;
-  background-color: white;
-  text-align: center;
-  transition: 0.5s;
-  transform: translate(0, 0px);
-  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  margin: 35px;
+  width: 80px;
+  height: 80px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.social-menu ul li a:hover {
-  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #b76c6c;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.social-menu ul li:nth-child(1) a:hover {
-  background-color: #3b5999;
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.social-menu ul li:nth-child(2) a:hover {
-  background-color: #55acee;
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
-.social-menu ul li:nth-child(3) a:hover {
-  background-color: #e4405f;
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.social-menu ul li:nth-child(4) a:hover {
-  background-color: #cd201f;
+
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: rgb(228, 64, 173);
+  color: #ffffff;
 }
 
-.social-menu ul li:nth-child(5) a:hover {
-  background-color: #0077B5;
+
+.wrapper .whats:hover,
+.wrapper .whats:hover .tooltip,
+.wrapper .whats:hover .tooltip::before {
+  background: #42cd1f;
+  color: #ffffff;
+}
+
+.wrapper .mail:hover,
+.wrapper .mail:hover .tooltip,
+.wrapper .mail:hover .tooltip::before {
+  background: #cd1f1f;
+  color: #ffffff;
 }
