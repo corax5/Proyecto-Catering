@@ -1,6 +1,7 @@
 import { Carousel } from "@material-tailwind/react";
 import { CarouselStylesType } from "@material-tailwind/react";
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+
 export function Carrusel() {
     const theme = {
         carousel: {
