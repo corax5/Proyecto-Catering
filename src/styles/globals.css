@@ -109,3 +109,36 @@ body {
   background: #cd1f1f;
   color: #ffffff;
 }
+
+/* Estilos para pantallas más pequeñas (max-width: 667px) */
+@media (max-width: 667px) {
+  .grid-cols-2 {
+    grid-template-columns: none;
+  }
+
+  .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 30px;
+  }
+
+  .text-2xl {
+
+    margin-left: 38px;
+  }
+
+  .wrapper .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .text-4xl {
+    display: none;
+  }
+}
+
+/* Pantallas grandes */
+@media (min-width: 768px) {}
+
+/* Aquí van las reglas CSS para pantallas extra grandes */
+@media (min-width: 1200px) {}

@@ -1,6 +1,6 @@
 import { Carousel } from "@material-tailwind/react";
 import { CarouselStylesType } from "@material-tailwind/react";
-
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 export function Carrusel() {
     const theme = {
         carousel: {
@@ -12,7 +12,7 @@ export function Carrusel() {
                             disabled={!loop && firstIndex}
                             className="!absolute top-2/4 left-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-white hover:bg-white/10 active:bg-white/30 grid place-items-center"
                         >
-                            <ChevronLeftIcon strokeWidth={3} className="-ml-1 h-7 w-7" />
+                            <FaChevronLeft strokeWidth={3} className="-ml-1 h-7 w-7" />
                         </button>
                     );
                 },
@@ -22,7 +22,7 @@ export function Carrusel() {
                         disabled={!loop && lastIndex}
                         className="!absolute top-2/4 right-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-white hover:bg-white/10 active:bg-white/30 grid place-items-center"
                     >
-                        <ChevronRightIcon strokeWidth={3} className="ml-1 h-7 w-7" />
+                        <FaChevronRight strokeWidth={3} className="ml-1 h-7 w-7" />
                     </button>
                 ),
                 navigation: ({ setActiveIndex, activeIndex, length }) => (
