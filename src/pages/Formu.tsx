@@ -11,14 +11,14 @@ const Form = () => {
         message: '',
     });
 
-    const handleChange = (e) => {
+    const handleChange = (e: any) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value,
         });
     };
 
-    const handleSubmit = async (event) => {
+    const handleSubmit = async (event: any) => {
         event.preventDefault();
         const data = new FormData(event.target);
 
@@ -34,7 +34,7 @@ const Form = () => {
             const result = await response.json();
 
             if (!response.ok) {
-                setMessage(result.errors.map((error) => error.message).join(', '));
+                setMessage(result.errors.map((error: any) => error.message).join(', '));
                 return;
             }
 

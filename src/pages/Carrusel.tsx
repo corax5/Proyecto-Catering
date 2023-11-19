@@ -2,11 +2,24 @@ import { Carousel } from "@material-tailwind/react";
 import { CarouselStylesType } from "@material-tailwind/react";
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
+
+
+interface CarouselProps {
+    loop: boolean;
+    handlePrev: () => void; // Tipo explícito para handlePrev como una función que no devuelve nada (void)
+    firstIndex: boolean;
+    handleNext: () => void;
+    lastIndex: boolean;
+    setActiveIndex: (index: number) => void; // Tipo explícito para setActiveIndex como una función que toma un número y no devuelve nada (void)
+    activeIndex: number;
+    length: number;
+}
+
 export function Carrusel() {
     const theme = {
         carousel: {
             defaultProps: {
-                prevArrow: ({ loop, handlePrev, firstIndex }) => {
+                prevArrow: ({ loop, handlePrev, firstIndex }: CarouselProps) => {
                     return (
                         <button
                             onClick={handlePrev}
@@ -17,7 +30,7 @@ export function Carrusel() {
                         </button>
                     );
                 },
-                nextArrow: ({ loop, handleNext, lastIndex }) => (
+                nextArrow: ({ loop, handleNext, lastIndex }: CarouselProps) => (
                     <button
                         onClick={handleNext}
                         disabled={!loop && lastIndex}
@@ -26,7 +39,7 @@ export function Carrusel() {
                         <FaChevronRight strokeWidth={3} className="ml-1 h-7 w-7" />
                     </button>
                 ),
-                navigation: ({ setActiveIndex, activeIndex, length }) => (
+                navigation: ({ setActiveIndex, activeIndex, length }: CarouselProps) => (
                     <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                         {new Array(length).fill("").map((_, i) => (
                             <span

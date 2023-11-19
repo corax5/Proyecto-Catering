@@ -2,7 +2,12 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-const ActiveLink = ({ href, children }) => {
+interface ActiveLinkProps {
+    href: string;
+    children: React.ReactNode;
+}
+
+const ActiveLink: React.FC<ActiveLinkProps> = ({ href, children }) => {
     const router = useRouter();
 
     const isActive = router.pathname === href;

@@ -8,7 +8,7 @@ import Form from './Formu';
 
 const Contacto = () => {
 
-  const openInNewTab = (url) => {
+  const openInNewTab = (url: any) => {
     const enlace = window.open(url, '_blank');
     if (enlace) {
       enlace.opener = null;
