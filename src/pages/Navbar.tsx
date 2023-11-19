@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 interface ActiveLinkProps {
     href: string;
@@ -28,7 +29,13 @@ export const Navbar = () => {
         <nav className="bg-white border-gray-200 bg-zinc-900">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
                 <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="https://i.gyazo.com/57e2dcf740bc44ef4dfe31b7094d397c.png" className="h-20" alt="Catering Logo" />
+                    <Image
+                        src={'/images/57e2dcf740bc44ef4dfe31b7094d397c.png'}
+                        alt="Catering Logo"
+                        width={80}
+                        height={80}
+                        className="h-20"
+                    />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Catering Vicente</span>
                 </a>
                 <button

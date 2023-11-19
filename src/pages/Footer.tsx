@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export const Footer = () => {
     return (
@@ -8,7 +9,14 @@ export const Footer = () => {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="https://flowbite.com/" className="flex items-center">
-                            <img src="https://i.gyazo.com/57e2dcf740bc44ef4dfe31b7094d397c.png" className="h-8 me-3" alt="FlowBite Logo" />
+                            <Image
+                                src={'/images/57e2dcf740bc44ef4dfe31b7094d397c.png'}
+                                alt="Catering Logo"
+                                width={80}
+                                height={80}
+                                className="h-20 mr-4"
+
+                            />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Catering Vicente</span>
                         </a>
                     </div>
