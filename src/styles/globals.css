@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -110,11 +110,18 @@ body {
   color: #ffffff;
 }
 
+.ul {
+  margin-right: 50px;
+}
+
+
+
 /* Estilos para pantallas más pequeñas (max-width: 667px) */
 @media (max-width: 667px) {
   .grid-cols-2 {
     grid-template-columns: none;
   }
+
 
   .text-xl {
     font-size: 1.25rem;

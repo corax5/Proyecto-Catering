@@ -82,24 +82,24 @@ export function Carrusel() {
     return (
         <Carousel className="rounded-xl w-1/2 ml-auto">
             <Image
-                src={'/images/photo-1518623489648-a173ef7824f3.avif'}
-                alt="image 1"
-                width={800}
-                height={800}
+                src={'/images/photo-1493246507139-91e8fad9978e.avif'}
+                alt="image 3"
+                width={400}
+                height={400}
                 className="w-full h-full object-contain"
             />
             <Image
-                src={'/images/photo-1518623489648-a173ef7824f3.avif'}
-                alt="image 1"
-                width={800}
-                height={800}
+                src={'/images/photo-1493246507139-91e8fad9978e.avif'}
+                alt="image 3"
+                width={400}
+                height={400}
                 className="w-full h-full object-contain"
             />
             <Image
-                src={'/images/photo-1550745165-9bc0b252726f.avif'}
-                alt="image 1"
-                width={800}
-                height={800}
+                src={'/images/photo-1493246507139-91e8fad9978e.avif'}
+                alt="image 3"
+                width={400}
+                height={400}
                 className="w-full h-full object-contain"
             />
         </Carousel>
