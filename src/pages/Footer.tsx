@@ -17,7 +17,7 @@ export const Footer = () => {
                                 className="h-20 mr-4"
 
                             />
-                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Catering Vicente</span>
+                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><span className='text-yellow-500'>Catering </span> Vicente</span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

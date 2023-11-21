@@ -16,10 +16,11 @@ const ActiveLink: React.FC<ActiveLinkProps> = ({ href, children }) => {
 
     return (
         <Link legacyBehavior href={href}>
-            <a className={`block py-2 px-2 rounded ${isActive ? 'text-decoration-line: underline ' : 'text-decoration-line: underline; hover:bg-gray-100'} md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-orange-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`}>
+            <a className={`block py-2 px- rounded ${isActive ? 'text-decoration-line: underline ' : 'text-decoration-line: underline; hover:bg-gray-100'}  md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-orange-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ml-auto`}>
                 {children}
             </a>
         </Link>
+
     );
 };
 
@@ -33,7 +34,7 @@ export const Navbar = () => {
 
     return (
         <nav className="bg-white border-gray-200 bg-zinc-900">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4  ">
                 <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image
                         src={'/images/57e2dcf740bc44ef4dfe31b7094d397c.png'}
@@ -42,7 +43,7 @@ export const Navbar = () => {
                         height={80}
                         className="h-20"
                     />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Catering Vicente</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-serif font-bold"><span className='text-yellow-500'>Catering </span>Vicente</span>
                 </a>
                 <button
                     data-collapse-toggle="navbar-default"
@@ -57,7 +58,7 @@ export const Navbar = () => {
                         <path stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
                     </svg>
                 </button>
-                <div className={`w-end md:w-80 ${menuVisible ? 'block' : 'hidden'} md:block`} id="navbar-default">
+                <div className={`w-end md:w-80  ${menuVisible ? 'block' : 'hidden'} md:block`} id="navbar-default">
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg bg-zinc-950 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-zinc-900 ">
                         <li>
                             <ActiveLink href="/">Inicio</ActiveLink>

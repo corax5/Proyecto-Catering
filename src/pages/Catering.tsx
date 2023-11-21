@@ -10,7 +10,9 @@ export const Catering = () => {
         <>
             <Navbar />
             <nav className="bg-white border-gray-200 bg-zinc-900">
-                <h1 className="text-5xl mx-auto text-center mb-10 ">Catering Vicente</h1>
+                <h1 className="text-5xl mx-auto text-center mb-10 font-serif font-bold ">
+                    <span className='text-yellow-500'>Catering </span>
+                    Vicente</h1>
                 <div className='flex items-center justify-center'>
                     <h3 className='text-2xl font-bold lg:text-2xl text-xl'>Si buscas un catering personalizado y darle a tu evento el cariño que se merece ¡Contactanos!</h3>
                 </div>
@@ -20,7 +22,7 @@ export const Catering = () => {
                         <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
                             <div className="text-center">
                                 <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white mx-auto flex items-center justify-center">
-                                    Aquí puedes ver algunos de nuestros caterings.
+                                    Aquí puedes ver algunos de nuestros caterings:
                                 </h2>
                             </div>
 

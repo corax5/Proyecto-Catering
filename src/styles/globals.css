@@ -16,6 +16,11 @@
   }
 }
 
+.desplegar {
+  color: rgb(247, 195, 25);
+  text-align: right;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom,
