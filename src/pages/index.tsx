@@ -5,6 +5,7 @@ import { Inicio } from '@/pages/Inicio';
 import Navbar from './Navbar';
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {

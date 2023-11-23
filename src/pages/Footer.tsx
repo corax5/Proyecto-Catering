@@ -17,7 +17,7 @@ export const Footer = () => {
                                 className="h-20 mr-4"
 
                             />
-                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><span className='text-yellow-500'>Catering </span> Vicente</span>
+                            <span className="self-center text-2xl whitespace-nowrap dark:text-white"><span className='text-yellow-500'>Catering </span> Vicente</span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -47,7 +47,9 @@ export const Footer = () => {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" className="hover:underline">Icortesdev</a>. All Rights Reserved.
+                    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" className="hover:underline">Catering Vicente</a>. All Rights Reserved.
+                    </span>
+                    <span className="text-xs text-gray-500 sm:text-center dark:text-gray-400">Designed and developed by  <a href="https://www.icortes.dev/" className="hover:underline">Icortesdev</a>.
                     </span>
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
                         <a href="mailto:cateringvicente0@gmail.com" className="text-gray-500 hover:text-gray-400 dark:hover:text-white ms-5">

@@ -9,11 +9,11 @@ export const Paellas = () => {
             <Navbar />
 
             <nav className="bg-white border-gray-200 bg-zinc-900">
-                <h1 className="text-5xl mx-auto text-center mb-10 font-serif font-bold ">
+                <h1 className="text-5xl mx-auto text-center mb-10 ">
                     <span className='text-yellow-500'>Catering </span>
                     Vicente</h1>
                 <div className='flex items-center justify-center'>
-                    <h3 className='text-2xl font-bold lg:text-3xl '>Paellas gigantes para todo tipo de eventos</h3>
+                    <h3 className='text-2xl font-bold lg:text-3xl  '>Paellas gigantes para todo tipo de eventos</h3>
                 </div>
 
                 <div className="bg-white border-gray-200 bg-zinc-900 max-w-screen-xl py-6 sm:py-8 lg:py-12 items-center justify-between mx-auto p-4">

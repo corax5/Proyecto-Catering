@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 
 :root {
   --foreground-rgb: 255, 255, 255;
@@ -26,6 +27,22 @@ body {
   background: linear-gradient(to bottom,
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.titulo {
+  font-family: 'Water Brush', cursive;
+  font-size: 70px;
+}
+
+.text-5xl {
+  font-family: 'Water Brush', cursive;
+  font-size: 80px;
+  text-align: center;
+
+}
+
+.self-center {
+  font-family: 'Water Brush', cursive;
 }
 
 .wrapper {
@@ -127,16 +144,29 @@ body {
     grid-template-columns: none;
   }
 
+  .titulo {
+    font-size: 40px;
+  }
+
+  .text-5xl {
+    font-size: 30px;
+    visibility: hidden;
+  }
 
   .text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 0.75rem;
+    margin-top: -50px;
+    line-height: 0.75rem;
     margin-left: 30px;
   }
 
-  .text-2xl {
+  .form {
+    margin-top: -5px;
+  }
 
-    margin-left: 38px;
+  .text-2xl {
+    margin-top: -50px;
+    margin-left: 30px;
   }
 
   .wrapper .icon {
@@ -144,8 +174,8 @@ body {
     height: 40px;
   }
 
-  .text-4xl {
-    display: none;
+  .text-3xl {
+    visibility: hidden;
   }
 }
 
