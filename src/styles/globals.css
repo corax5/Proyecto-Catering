@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
 
 :root {
   --foreground-rgb: 255, 255, 255;
@@ -140,7 +140,7 @@ body {
 
 /* Estilos para pantallas más pequeñas (max-width: 667px) */
 @media (max-width: 667px) {
-  @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
 
   .grid-cols-2 {
     grid-template-columns: none;
@@ -172,7 +172,7 @@ body {
     margin-top: -50px;
     margin-left: 30px;
     font-size: 25px;
-    font-family: 'Water Brush', cursive;
+
 
   }
 
@@ -188,15 +188,12 @@ body {
   .self-center {
     align-items: center;
     margin-top: 5px;
+    font-family: 'Water Brush', cursive;
   }
 }
 
 /* Pantallas grandes */
-@media (min-width: 768px) {
-  @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
-}
+@media (min-width: 768px) {}
 
 /* Aquí van las reglas CSS para pantallas extra grandes */
-@media (min-width: 1200px) {
-  @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
-}
+@media (min-width: 1200px) {}
