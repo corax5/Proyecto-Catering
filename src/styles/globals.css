@@ -140,7 +140,7 @@ body {
 
 /* Estilos para pantallas más pequeñas (max-width: 667px) */
 @media (max-width: 667px) {
-
+  @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 
   .grid-cols-2 {
     grid-template-columns: none;
@@ -148,7 +148,7 @@ body {
 
   .titulo {
     font-size: 25px;
-    font-family: 'Water Brush';
+    font-family: 'Water Brush', cursive;
 
   }
 
@@ -215,7 +215,7 @@ body {
   .self-center {
     align-items: center;
     margin-top: 5px;
-    font-family: 'Water Brush';
+    font-family: 'Water Brush', cursive;
     margin-left: -6px;
   }
 }
