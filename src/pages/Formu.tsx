@@ -46,7 +46,7 @@ const Form = () => {
     };
 
     return (
-        <div className="text-2xl font-bold text-gray-800 lg:text-xl dark:text-white mx-auto flex items-center ml-8 mb-8">
+        <div className="form text-2xl font-bold text-gray-800 lg:text-xl dark:text-white mx-auto flex items-center ml-8 mb-8">
             <div className="min-h-screen bg-stone-900 py-6 flex flex-col justify-center sm:py-1 mr-74">
                 <div className="relative py-3 sm:max-w-xl sm:mx-auto text-center">
                     <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-goldenrod-500 transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:p-5 w-4/3"></div>
