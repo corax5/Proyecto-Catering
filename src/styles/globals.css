@@ -148,8 +148,8 @@ body {
 
   .titulo {
     font-size: 25px;
-    font-family: 'Water Brush', cursive;
-    font-weight: bold;
+    font-family: 'Water Brush';
+
   }
 
   .text-5xl {
@@ -161,8 +161,9 @@ body {
   .text-xl {
     font-size: 1rem;
     margin-top: -50px;
-    line-height: 1rem;
+    line-height: 1.5rem;
     width: 100%;
+    font-weight: 400;
   }
 
   .form {
@@ -214,8 +215,8 @@ body {
   .self-center {
     align-items: center;
     margin-top: 5px;
-    font-family: 'Water Brush', cursive;
-    font-weight: bold;
+    font-family: 'Water Brush';
+    margin-left: -6px;
   }
 }
 
