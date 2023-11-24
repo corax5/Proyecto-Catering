@@ -14,7 +14,7 @@ export const Catering = () => {
                     <span className='text-yellow-500'>Catering </span>
                     Vicente</h1>
                 <div className='flex items-center justify-center'>
-                    <h3 className='text-2xl font-bold lg:text-2xl  '>Si buscas un catering personalizado y darle a tu evento el cariño que se merece ¡Contactanos!</h3>
+                    <h3 className='text-xl font-bold lg:text-2xl ml-2 '>Si buscas un catering personalizado y darle a tu evento el cariño que se merece ¡Contactanos!</h3>
                 </div>
 
                 <div className="bg-white border-gray-200 bg-zinc-900 max-w-screen-xl py-6 sm:py-8 lg:py-12 items-center justify-between mx-auto p-4">
