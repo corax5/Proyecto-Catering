@@ -151,8 +151,8 @@ body {
   }
 
   .titulo {
-    font-size: 40px;
-    font-family: "Dancing Script";
+    font-size: 35px;
+    font-family: "Dancing Script" cursive;
 
   }
 
@@ -219,7 +219,7 @@ body {
   .self-center {
     align-items: center;
     margin-top: 5px;
-    font-family: "Dancing Script";
+    font-family: "Dancing Script" cursive;
     margin-left: -6px;
     font-size: 20px;
   }
