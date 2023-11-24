@@ -140,22 +140,24 @@ body {
 
 /* Estilos para pantallas más pequeñas (max-width: 667px) */
 @media (max-width: 667px) {
-  @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Frank+Ruhl+Libre:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
   .grid-cols-2 {
     grid-template-columns: none;
   }
 
   .titulo {
-    font-size: 25px;
-    font-family: 'Water Brush', cursive;
+    font-size: 40px;
+    font-family: "Dancing Script";
 
   }
 
   .text-5xl {
     font-size: 30px;
     visibility: hidden;
-    font-family: 'Water Brush', cursive;
+
   }
 
   .text-xl {
@@ -215,8 +217,9 @@ body {
   .self-center {
     align-items: center;
     margin-top: 5px;
-    font-family: 'Water Brush', cursive;
+    font-family: "Dancing Script";
     margin-left: -6px;
+    font-size: 20px;
   }
 }
 
