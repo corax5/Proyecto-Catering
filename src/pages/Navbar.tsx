@@ -18,7 +18,7 @@ const ActiveLink: React.FC<ActiveLinkProps> = ({ href, children }) => {
 
     return (
         <Link legacyBehavior href={href}>
-            <a className={`block py-2 px-4 rounded ${isActive ? 'text-decoration-line: underline ' : 'text-decoration-line: underline; hover:bg-gray-100'}  md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-orange-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ml-auto`}>
+            <a className={`block py-2 px-4 rounded ${isActive ? 'text-decoration-line: underline ' : ' text-decoration-line: underline; hover:bg-gray-100'}  md:hover:bg-transparent md:border-0 md:hover:text-c6a05f md:p-0 dark:text-amber-200 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ml-auto`}>
                 {children}
             </a>
         </Link>
@@ -39,14 +39,14 @@ export const Navbar = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4  ">
                 <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image
-                        src={'/images/57e2dcf740bc44ef4dfe31b7094d397c.png'}
+                        src={'/images/Proyecto nuevo (2).png'}
                         alt="Catering Logo"
-                        width={80}
-                        height={80}
+                        width={250}
+                        height={400}
                         className="h-20"
                     />
 
-                    <span className="titulo"><span className='text-yellow-500'>Catering </span>Vicente</span>
+
                 </a>
                 <button
                     data-collapse-toggle="navbar-default"
@@ -62,7 +62,7 @@ export const Navbar = () => {
                     </svg>
                 </button>
                 <div className={`w-end md:w-80  ${menuVisible ? 'block' : 'hidden'} md:block`} id="navbar-default">
-                    <ul className="font-medium flex flex-col  p-4 md:p-0 mt-4 border rounded-lg bg-zinc-950 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-zinc-900 ">
+                    <ul className="font-medium flex flex-col  p-4 md:p-0 mt-4 border rounded-lg bg-zinc-900 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-zinc-900 ">
                         <li>
                             <ActiveLink href="/">Inicio</ActiveLink>
                         </li>

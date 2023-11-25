@@ -20,7 +20,7 @@ const Contacto = () => {
       <Navbar />
 
       <nav className="bg-white border-gray-200 bg-zinc-900">
-        <h3 className="text-4xl mx-auto text-center mb-6 font-serif font-bold">Contacto:</h3>
+        <h3 className=" dorado text-4xl mx-auto text-center mb-6 font-serif font-bold">Contacto:</h3>
         <div className=" flex items-center justify-between">
           <h4 className='text-3xl mx-auto text-left mb-8 font-serif font-bold'>Conéctate con nosotros en redes sociales</h4>
 

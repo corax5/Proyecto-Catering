@@ -10,14 +10,13 @@ export const Footer = () => {
                     <div className="mb-6 md:mb-0">
                         <a href="#" className="flex items-center">
                             <Image
-                                src={'/images/57e2dcf740bc44ef4dfe31b7094d397c.png'}
+                                src={'/images/Proyecto nuevo (2).png'}
                                 alt="Catering Logo"
-                                width={80}
-                                height={80}
-                                className="h-20 mr-4"
-
+                                width={250}
+                                height={400}
+                                className="h-20"
                             />
-                            <span className="self-center text-2xl whitespace-nowrap dark:text-white"><span className='text-yellow-500'>Catering </span> Vicente</span>
+
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

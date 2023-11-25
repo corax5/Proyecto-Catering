@@ -10,7 +10,7 @@ export const Paellas = () => {
 
             <nav className="bg-white border-gray-200 bg-zinc-900">
                 <h1 className="text-5xl mx-auto text-center mb-10 ">
-                    <span className='text-yellow-500'>Catering </span>
+                    <span className='dorado'>Catering </span>
                     Vicente</h1>
                 <div className='flex items-center justify-center'>
                     <h3 className='text-2xl font-bold lg:text-3xl  '>Paellas gigantes para todo tipo de eventos</h3>

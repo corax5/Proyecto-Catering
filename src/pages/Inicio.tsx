@@ -11,7 +11,7 @@ export const Inicio = () => {
             <nav className="bg-white border-gray-200 bg-zinc-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <h1 className="text-5xl mx-auto text-center mb-10 ">
-                        <span className='text-yellow-500 '>Catering </span>
+                        <span className='dorado'>Catering </span>
                         Vicente</h1>
                     <div className='inicio flex items-center justify-center'>
                         <p className='text-xl mr-4 w-1/2 p-2 font-roboto'>

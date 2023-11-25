@@ -20,7 +20,7 @@
 }
 
 .desplegar {
-  color: rgb(247, 195, 25);
+  color: #c6a05f;
   text-align: right;
 }
 
@@ -56,7 +56,7 @@ body {
 
 .wrapper .icon {
   position: relative;
-  background: rgb(247, 195, 25);
+  background: #c6a05f;
   border-radius: 50%;
   padding: 15px;
   margin: 35px;
@@ -138,7 +138,9 @@ body {
   margin-right: 50px;
 }
 
-
+.dorado {
+  color: #c6a05f;
+}
 
 /* Estilos para pantallas más pequeñas (max-width: 667px) */
 @media (max-width: 667px) {
