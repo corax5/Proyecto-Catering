@@ -142,6 +142,12 @@ body {
   color: #c6a05f;
 }
 
+.alert {
+  background-color: #42cd1f;
+  width: fit-content;
+  margin-top: 8px
+}
+
 /* Estilos para pantallas más pequeñas (max-width: 667px) */
 @media (max-width: 667px) {
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Frank+Ruhl+Libre:wght@300&display=swap');
@@ -155,6 +161,13 @@ body {
   .titulo {
     font-size: 28px;
     font-family: "Dancing Script" cursive;
+
+  }
+
+  .alert {
+    background-color: #42cd1f;
+    margin-top: 8px;
+    font-size: 15px;
 
   }
 

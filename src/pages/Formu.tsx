@@ -27,7 +27,7 @@ const Form = () => {
                 method: 'POST',
                 body: data,
                 headers: {
-                    Accept: 'https://formspree.io/f/mrgwwkpg',
+                    Accept: 'application/json',
                 },
             });
 
@@ -35,7 +35,7 @@ const Form = () => {
 
             if (!response.ok) {
                 setMessage(result.errors.map((error: any) => error.message).join(', '));
-                return;
+                return false;
             }
 
             setMessage('¡Se ha enviado tu correo!');
@@ -103,8 +103,9 @@ const Form = () => {
                                     value="Enviar ➤"
                                     style={{ cursor: 'pointer' }}
                                 />
+
                             </div>
-                        </form>
+                        </form>  <p className='alert'>{message}</p>
                     </div>
                 </div>
             </div>
