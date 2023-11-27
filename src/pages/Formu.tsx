@@ -23,11 +23,11 @@ const Form = () => {
         const data = new FormData(event.target);
 
         try {
-            const response = await fetch('/api/submit-form', {
+            const response = await fetch('https://formspree.io/f/mrgwwkpg', {
                 method: 'POST',
                 body: data,
                 headers: {
-                    Accept: 'application/json',
+                    Accept: 'https://formspree.io/f/mrgwwkpg',
                 },
             });
 
@@ -55,7 +55,7 @@ const Form = () => {
                         <div className="text-center pb-4">
                             <p className="text-black-300 lg:text-3xl">Envíanos un mensaje</p>
                         </div>
-                        <form onSubmit={handleSubmit}>
+                        <form action={'https://formspree.io/f/mrgwwkpg'} method='POST' onSubmit={handleSubmit}>
                             <label htmlFor="name" className="block text-zinc-300 text-sm font-bold mb-2">
                                 Nombre:
                             </label>
