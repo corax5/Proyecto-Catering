@@ -158,10 +158,8 @@ body {
     grid-template-columns: none;
   }
 
-  .titulo {
-    font-size: 28px;
-    font-family: "Dancing Script" cursive;
-
+  .text-xs {
+    margin-top: 10px;
   }
 
   .alert {
