@@ -10,11 +10,17 @@ export const Catering = () => {
         <>
             <Navbar />
             <nav className="bg-white border-gray-200 bg-zinc-900">
-                <h1 className="text-5xl mx-auto text-center mb-10  ">
-                    <span className='dorado'>Catering </span>
-                    Vicente</h1>
+                <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
+                    <h1 className="text-5xl mx-auto text-center mb-10 ">
+                        <Image
+                            src={'/images/cabecera.png'}
+                            alt="Catering Logo"
+                            width={600}
+                            height={600}
+                            className="justify-center align-items-center"
+                        /></h1></div>
                 <div className='flex items-center justify-center'>
-                    <h3 className='text-xl font-bold lg:text-2xl ml-2 '>Si buscas un catering personalizado y darle a tu evento el cariño que se merece ¡Contactanos!</h3>
+                    <h3 className='text-xl font-bold lg:text-2xl ml-2 '>Si buscas un catering personalizado en La Rioja y darle a tu evento el cariño que se merece ¡Contactanos!</h3>
                 </div>
 
                 <div className="bg-white border-gray-200 bg-zinc-900 max-w-screen-xl py-6 sm:py-8 lg:py-12 items-center justify-between mx-auto p-4">
