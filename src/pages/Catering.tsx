@@ -38,7 +38,7 @@ export const Catering = () => {
 
                         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8 mb-4">
 
-                            <a href="/Catering"
+                            <a href="#"
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                                 <Image src={'/images/IMG_8304.jpg'}
                                     loading="lazy"
@@ -53,7 +53,7 @@ export const Catering = () => {
 
                                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Eventos</span>
                             </a>
-                            <a href="/Catering#"
+                            <a href="#"
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                                 <Image src={'/images/IMG_8293.jpg'}
                                     loading="lazy"
@@ -68,7 +68,7 @@ export const Catering = () => {
 
                                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Cohete  Ayuntamiento de Logroño</span>
                             </a>
-                            <a href="/Catering#"
+                            <a href="#"
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                                 <Image src={'/images/IMG_8298.jpg'}
                                     loading="lazy"
@@ -84,7 +84,7 @@ export const Catering = () => {
                                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Reuniones</span>
                             </a>
 
-                            <a href="/Catering"
+                            <a href="#"
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 mb-15">
                                 <Image src={'/images/IMG_8299.jpg'}
                                     loading="lazy"
@@ -99,7 +99,7 @@ export const Catering = () => {
 
                                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Aniversario  Brico Depôt</span>
                             </a>
-                            <a href="/Catering#"
+                            <a href="#"
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                                 <Image src={'/images/IMG_8297.jpg'}
                                     loading="lazy"
