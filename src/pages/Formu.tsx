@@ -23,7 +23,7 @@ const Form = () => {
         const data = new FormData(event.target);
 
         try {
-            const response = await fetch('https://formspree.io/f/mrgwwkpg', {
+            const response = await fetch('https://formspree.io/f/xzbllyrq', {
                 method: 'POST',
                 body: data,
                 headers: {
