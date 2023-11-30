@@ -148,6 +148,22 @@ body {
   margin-top: 8px
 }
 
+
+
+.carrusel {
+  height: 500px !important;
+}
+
+.group {
+  height: 400px !important;
+}
+
+.foto {
+  height: max-content !important;
+  width: max-content;
+}
+
+
 /* Estilos para pantallas más pequeñas (max-width: 667px) */
 @media (max-width: 667px) {
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Frank+Ruhl+Libre:wght@300&display=swap');
@@ -161,6 +177,7 @@ body {
   .text-xs {
     margin-top: 10px;
   }
+
 
   .alert {
     background-color: #42cd1f;

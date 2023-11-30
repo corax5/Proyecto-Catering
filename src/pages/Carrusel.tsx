@@ -80,30 +80,29 @@ export function Carrusel() {
     };
 
     return (
-        <Carousel className="rounded-xl w-1/2 ml-auto">
+        <Carousel className="rounded-xl w-1/3 ml-auto md:ml-12">
             <Image
-                src={'/images/photo-1493246507139-91e8fad9978e.avif'}
-                alt="image 3"
+                src={'/images/cateringimg.jpg'}
+                alt="image 1"
                 width={400}
-                height={400}
-                className="w-full h-full object-contain"
+                height={500}
+                className="carrusel w-full h-full object-cover"
             />
             <Image
-                src={'/images/photo-1493246507139-91e8fad9978e.avif'}
-                alt="image 3"
+                src={'/images/cateringpaella.jpg'}
+                alt="image 2"
                 width={400}
-                height={400}
-                className="w-full h-full object-contain"
+                height={500}
+                className="carrusel w-full h-full object-cover"
             />
             <Image
-                src={'/images/photo-1493246507139-91e8fad9978e.avif'}
+                src={'/images/catering3.jpg'}
                 alt="image 3"
                 width={400}
-                height={400}
-                className="w-full h-full object-contain"
+                height={500}
+                className="carrusel w-full h-auto object-cover"
             />
         </Carousel>
-
     );
 }
 export default Carrusel
