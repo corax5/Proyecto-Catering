@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { Footer } from './Footer'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export const Catering = () => {
