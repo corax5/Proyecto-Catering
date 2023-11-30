@@ -82,7 +82,7 @@ export function Carrusel() {
     return (
         <Carousel className="rounded-xl w-1/3 ml-auto md:ml-12">
             <Image
-                src={'/images/cateringimg.jpg'}
+                src={'/images/catering3.jpg'}
                 alt="image 1"
                 width={400}
                 height={500}
@@ -96,7 +96,7 @@ export function Carrusel() {
                 className="carrusel w-full h-full object-cover"
             />
             <Image
-                src={'/images/catering3.jpg'}
+                src={'/images/cateringimg.jpg'}
                 alt="image 3"
                 width={400}
                 height={500}
