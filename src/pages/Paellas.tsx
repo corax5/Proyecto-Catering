@@ -34,7 +34,7 @@ export const Paellas = () => {
 
                         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8 mb-4">
 
-                            <a href="#"
+                            <a
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                                 <Image src={'/images/IMG_8292.jpg'}
                                     loading="lazy"
@@ -50,7 +50,7 @@ export const Paellas = () => {
                                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Eventos familiares</span>
                             </a>
 
-                            <a href="#"
+                            <a
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                                 <Image src={'/images/IMG_8295.jpg'}
                                     loading="lazy"
@@ -66,7 +66,7 @@ export const Paellas = () => {
                                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Plaza de toros de Logroño</span>
                             </a>
 
-                            <a href="#"
+                            <a
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                                 <Image src={'/images/IMG_8290.jpg'}
                                     loading="lazy"
@@ -82,7 +82,7 @@ export const Paellas = () => {
                                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Paella popular</span>
                             </a>
 
-                            <a href="#"
+                            <a
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 mb-15">
                                 <Image src={'/images/cateringimg2.jpg'}
                                     loading="lazy"
@@ -95,7 +95,7 @@ export const Paellas = () => {
                                     className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                                 </div>
 
-                                <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Rincon de soto</span>
+                                <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Fiestas de pueblos</span>
                             </a>
 
                         </div>

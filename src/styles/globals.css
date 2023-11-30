@@ -194,11 +194,10 @@ body {
   }
 
   .text-xl {
-    font-size: 1rem;
-    margin-top: -50px;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: -15px;
+    line-height: 2rem;
     width: 100%;
-    font-weight: 400;
   }
 
   .form {
