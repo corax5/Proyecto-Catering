@@ -5,10 +5,10 @@ import Footer from './Footer'
 export const Privacidad = () => {
     return (
         <>
-            <div className='font-roboto border-gray-200 bg-zinc-900'>
+            <div className="font-roboto border-gray-200 bg-zinc-900">
                 <Navbar />
 
-                <p className='priva text-xl mr-16 w-1/2  ml-96 '><strong> Política de Privacidad para Formulario de Contacto
+                <p className="priva text-xl mr-16 w-1/2  ml-96 "><strong> Política de Privacidad para Formulario de Contacto
                     Fecha de vigencia: 01/12/2023</strong><br />
                     <br />
                     Esta Política de Privacidad describe cómo Catering Vicente ("nosotros", "nuestro", "nos") recopila, utiliza y comparte la información que obtiene de los usuarios ("usted", "su") a través de nuestro formulario de contacto en el sitio web www.cateringvicente.com.
