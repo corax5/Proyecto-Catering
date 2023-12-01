@@ -11,7 +11,7 @@ export const Privacidad = () => {
                 <p className="priva text-xl mr-16 w-1/2  ml-96 "><strong> Política de Privacidad para Formulario de Contacto
                     Fecha de vigencia: 01/12/2023</strong><br />
                     <br />
-                    Esta Política de Privacidad describe cómo Catering Vicente ("nosotros", "nuestro", "nos") recopila, utiliza y comparte la información que obtiene de los usuarios ("usted", "su") a través de nuestro formulario de contacto en el sitio web www.cateringvicente.com.
+                    Esta Política de Privacidad describe cómo Catering Vicente (&quot;nosotros&quot;, &quot;nuestro&quot;, &quot;nos&quot;) recopila, utiliza y comparte la información que obtiene de los usuarios (&quot;usted&quot;, &quot;su&quot;) a través de nuestro formulario de contacto en el sitio web www.cateringvicente.com.
                     <br />
                     Información que Recopilamos
                     Cuando usted completa nuestro formulario de contacto, podemos recopilar la siguiente información:<br /><br />
