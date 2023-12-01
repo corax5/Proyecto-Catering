@@ -8,7 +8,7 @@ export const Privacidad = () => {
             <div className='font-roboto border-gray-200 bg-zinc-900'>
                 <Navbar />
 
-                <p className='text-xl mr-16 w-1/2 p-2 ml-96'><strong> Política de Privacidad para Formulario de Contacto
+                <p className='priva text-xl mr-16 w-1/2  ml-96 '><strong> Política de Privacidad para Formulario de Contacto
                     Fecha de vigencia: 01/12/2023</strong><br />
                     <br />
                     Esta Política de Privacidad describe cómo Catering Vicente ("nosotros", "nuestro", "nos") recopila, utiliza y comparte la información que obtiene de los usuarios ("usted", "su") a través de nuestro formulario de contacto en el sitio web www.cateringvicente.com.
@@ -43,7 +43,7 @@ export const Privacidad = () => {
                     Tomamos medidas para proteger la información personal que recopilamos. Sin embargo, ninguna transmisión de datos a través de Internet o sistema de almacenamiento es completamente segura. Por lo tanto, no podemos garantizar la seguridad absoluta de su información.
                     <br />
                     Cookies y Tecnologías Similares
-                    Nuestro sitio web puede utilizar cookies y tecnologías similares. Al utilizar nuestro sitio, usted acepta el uso de estas tecnologías de acuerdo con nuestra [Política de Cookies].
+                    Nuestro sitio web puede utilizar cookies y tecnologías similares. Al utilizar nuestro sitio, usted acepta el uso de estas tecnologías de acuerdo con nuestra Política de Cookies.
                     <br />
                     Sus Derechos
                     Usted tiene derechos sobre sus datos personales, incluido el derecho a acceder, corregir, eliminar y objetar el procesamiento. Para ejercer estos derechos, contáctenos a través de <strong>cateringvicente0@gmail.com</strong>
