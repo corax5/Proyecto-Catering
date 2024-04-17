@@ -40,7 +40,7 @@ export const Catering = () => {
 
                             <a
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                                <Image src={'/images/IMG_8304.jpg'}
+                                <Image src={'/images/catering5.jpg'}
                                     loading="lazy"
                                     alt="Photo eventos"
                                     width={500}
@@ -54,8 +54,82 @@ export const Catering = () => {
                                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Eventos</span>
                             </a>
                             <a
+                                className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <Image src={'/images/catering6.jpg'}
+                                    loading="lazy"
+                                    alt="Photo eventos"
+                                    width={500}
+                                    height={500}
+                                    className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+
+                            </a>
+                            <a
+                                className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <Image src={'/images/IMG_8304.jpg'}
+                                    loading="lazy"
+                                    alt="Photo eventos"
+                                    width={500}
+                                    height={500}
+                                    className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+
+                            </a>
+                            <a
+                                className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <Image src={'/images/catering7.jpg'}
+                                    loading="lazy"
+                                    alt="Photo eventos"
+                                    width={500}
+                                    height={500}
+                                    className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+
+                            </a>
+                            <a
+                                className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <Image src={'/images/catering8.jpg'}
+                                    loading="lazy"
+                                    alt="Photo eventos"
+                                    width={500}
+                                    height={500}
+                                    className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+                            </a>
+                            <a
+                                className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <Image src={'/images/catering9.jpg'}
+                                    loading="lazy"
+                                    alt="Photo eventos"
+                                    width={500}
+                                    height={500}
+                                    className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+
+                            </a>
+                            <a
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                                <Image src={'/images/IMG_8293.jpg'}
+                                <Image src={'/images/catering4.jpg'}
                                     loading="lazy"
                                     alt="Photo reunion"
                                     width={800}
@@ -66,7 +140,22 @@ export const Catering = () => {
                                     className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                                 </div>
 
-                                <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Cohete  Ayuntamiento de Logroño</span>
+
+                            </a>
+                            <a
+                                className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <Image src={'/images/catering10.jpg'}
+                                    loading="lazy"
+                                    alt="Photo eventos"
+                                    width={500}
+                                    height={500}
+                                    className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+
                             </a>
                             <a
                                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
@@ -113,6 +202,21 @@ export const Catering = () => {
                                 </div>
 
                                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Aniversarios de boda</span>
+                            </a>
+                            <a
+                                className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <Image src={'/images/unnamed.jpg'}
+                                    loading="lazy"
+                                    alt="Photo eventos"
+                                    width={500}
+                                    height={500}
+                                    className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                                <div
+                                    className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+
+
                             </a>
                         </div>
                     </div>
