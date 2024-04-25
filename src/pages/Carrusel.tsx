@@ -96,12 +96,13 @@ export function Carrusel() {
                 className="carrusel w-full h-full object-cover"
             />
             <Image
-                src={'/images/cateringimg.jpg'}
+                src={'/images/catering6.jpg'}
                 alt="image 3"
                 width={400}
                 height={500}
                 className="carrusel w-full h-auto object-cover"
             />
+
         </Carousel>
     );
 }
