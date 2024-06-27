@@ -9,7 +9,7 @@ Landing page para la empresa Catering Vicente
 
 ## Authors
 
-- [@corax5](https://github.com/corax5)
+- [@icortesdev](https://github.com/icortesdev)
 
 
 ## Tech Stack
